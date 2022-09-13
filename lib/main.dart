@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  configureDependencies();
+  // configureDependencies(environment: cat); so we can get cats
+  configureDependencies(environment: chuck); // we will get chucks :)
   runApp(const MyApp());
 }
 
